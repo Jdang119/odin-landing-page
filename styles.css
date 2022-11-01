@@ -120,7 +120,7 @@ h2{
     background-color: #3882f6;
     border-radius: 15px;
     justify-content: space-around;
-    padding: 2rem 10rem 2rem 10rem;
+    padding: 2rem 10rem 2rem 6rem;
     
 }
 .sign-up-text{
@@ -137,7 +137,13 @@ h2{
     border: solid #f9FAF8;
     padding: 10px 30px 10px 30px;
 }
-
+footer{
+    background-color:#1f2937;
+    font-size: 18px;
+    color: #f9FAF8;
+    padding: 4rem 0 4rem 0;
+    text-align: center;
+}
 
 
 
