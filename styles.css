@@ -44,18 +44,23 @@ a:visited{
     display: flex;
     background-color: #1f2937;
     padding: 5% 0 4% 0;
-    column-gap: 10rem;
+    justify-content: space-between;
+}
+.img{
+    padding-left: 15rem;
 }
 .hero-text{
     font-size:48px;
     color: #E5E7EB
 }
-button{
+.hero-button{
     margin: 10px 0px 0px 0px;
     padding: 8px 30px 8px 30px;
+    border: none;
+}
+button{
     background-color: #3882f6;
     border-radius: 10px;
-    border: none;
     font-weight: bolder;
 }
 h2{
@@ -92,15 +97,47 @@ h2{
 }
 .quote-container{
     padding: 9% 25% 9% 25%;
+    color: #1f2937;
 }
 .quote-text{
-    color: #1f2937;
     font-size: 36px;
     font-style: italic;
 }
 .quote-author{
+    padding-top: 20px;
     text-align: right;
+    font-weight: bolder;
 }
+.sign-up-text{
+    color: #f9FAF8;
+}
+.sign-up-section{
+    padding: 0 0 2.7rem 0;
+}
+.sign-up-container{
+    display: flex;
+    margin: 5% 15% 5% 15%;
+    background-color: #3882f6;
+    border-radius: 15px;
+    justify-content: space-around;
+    padding: 2rem 10rem 2rem 10rem;
+    
+}
+.sign-up-text{
+    padding: 30px 0 30px 0;
+}
+.sign-up-header{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.sign-up-button-container{
+    padding: 30px 0 0 0;
+}
+.sign-up-button{
+    border: solid #f9FAF8;
+    padding: 10px 30px 10px 30px;
+}
+
 
 
 
